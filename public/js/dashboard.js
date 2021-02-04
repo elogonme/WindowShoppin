@@ -232,11 +232,11 @@ $(document).ready(function() {
     });
 
     // Trigger button 'Check All' on first login to check all items for update
-    const isSameSession = sessionStorage.getItem("session");
+    // const isSameSession = sessionStorage.getItem("session");
     // Check if this is first time user logged in and save to session stoarge true
-    if (!isSameSession) {
-        $('#update-all').trigger('click');
-        console.log('Click update all');
-        sessionStorage.setItem("session", true);
-      };
+    // if (!isSameSession) {
+    //     $('#update-all').trigger('click');
+    //     console.log('Click update all');
+    //     sessionStorage.setItem("session", true);
+    //   };
 });
